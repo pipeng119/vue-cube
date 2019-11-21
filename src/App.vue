@@ -20,6 +20,7 @@ export default {
   methods: {
     _getSeller() {
       getSeller().then(seller => {
+        console.log(seller)
         this.seller = seller;
       });
     }

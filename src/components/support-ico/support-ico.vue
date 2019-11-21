@@ -32,10 +32,11 @@ export default {
 @import '~common/stylus/mixin'
 @import '~common/stylus/variable'
 
-.suupport-ico {
+.support-ico {
   display: inline-block;
   background-repeat: no-repeat;
 }
+
 
 .icon-1 {
   width: 12px;
@@ -140,5 +141,6 @@ export default {
     bg-image('special_4');
   }
 }
+
 </style>
 
